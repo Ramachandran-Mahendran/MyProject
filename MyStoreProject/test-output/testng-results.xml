@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17096" started-at="2022-07-18T17:14:15 IST" finished-at="2022-07-18T17:14:32 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="AccountCreationPageTest.verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="verifyCreateAccountPageTest" class="com.mystore.testcases.AccountCreationPageTest"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Sanity" duration-ms="17096" started-at="2022-07-18T17:14:15 IST" finished-at="2022-07-18T17:14:32 IST">
+      <class name="com.mystore.testcases.AccountCreationPageTest">
+        <test-method status="PASS" signature="loadConfig()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="loadConfig" is-config="true" duration-ms="180" started-at="2022-07-18T17:14:15 IST" finished-at="2022-07-18T17:14:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="setup" is-config="true" duration-ms="8064" started-at="2022-07-18T17:14:16 IST" finished-at="2022-07-18T17:14:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="verifyCreateAccountPageTest" duration-ms="7282" started-at="2022-07-18T17:14:24 IST" data-provider="email" finished-at="2022-07-18T17:14:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rmcaws19874@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccountPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="tearDown" is-config="true" duration-ms="727" started-at="2022-07-18T17:14:31 IST" finished-at="2022-07-18T17:14:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@8e24743]" name="afterSuite" is-config="true" duration-ms="313" started-at="2022-07-18T17:14:32 IST" finished-at="2022-07-18T17:14:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
+    </test> <!-- Sanity -->
+  </suite> <!-- Suite -->
+</testng-results>
